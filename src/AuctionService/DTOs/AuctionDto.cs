@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AuctionService.DTOs
 {
-    public class AuctionDTO
+    public class AuctionDto
     {
         public Guid Id { get; set; }
         public int ReservePrice { get; set; }
