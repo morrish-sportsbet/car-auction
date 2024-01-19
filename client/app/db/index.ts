@@ -183,7 +183,7 @@ const AUCTIONS = [
 			"https://cdn.pixabay.com/photo/2016/04/17/22/10/mercedes-benz-1335674_960_720.png"
 	}
 ]
-// db.auction.deleteMany()
+db.auction.deleteMany()
 AUCTIONS.forEach(auction =>
 	db.auction.create({
 		data: auction
